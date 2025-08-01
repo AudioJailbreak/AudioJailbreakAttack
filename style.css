@@ -1,0 +1,84 @@
+/* 通用基础设置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* 导航栏 */
+nav {
+  background-color: #5856d6;
+  color: #fff;
+  padding: 1rem;
+}
+nav h1 {
+  margin: 0;
+}
+
+/* 容器 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Section 标题样式 */
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Strong Adversary 网格布局 */
+.adversary-box {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+/* Weak Adversary 网格布局 */
+.weak-box {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 0.5rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+/* 音频与响应的块样式 */
+.audio-section p,
+.response-section p {
+  margin-bottom: 0.5rem;
+}
+.audio-section,
+.response-section {
+  margin-bottom: 1rem;
+}
+
+/* 页脚 */
+footer {
+  background-color: #efefef;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
